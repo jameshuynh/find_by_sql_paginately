@@ -1,4 +1,4 @@
-# FindBySqlPaginately
+# find_by_sql_paginately
 
 This gem is to add extra parameters to Rails original method ``find_by_sql`` so that developers like us can do pagination without so much hassle of manipulating the SQL.
 
