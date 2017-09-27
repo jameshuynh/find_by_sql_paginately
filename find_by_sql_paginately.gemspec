@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %(Add pagination to original Rails find_by_sql function)
   spec.description   = %(Add pagination to original Rails find_by_sql function)
-  spec.homepage      = 'http://jameshuynh.com'
+  spec.homepage      = 'https://github.com/jameshuynh/find_by_sql_paginately'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
