@@ -40,7 +40,7 @@ module FindBySqlPaginately
         records.instance_eval do
           eval <<-RUBY, nil, __FILE__, __LINE__ + 1
             def sql
-              "#{sanitize_sql}"
+              %(#{sanitize_sql})
             end
 
             def page
